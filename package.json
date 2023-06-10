@@ -1,0 +1,45 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "description": "This is our realtime pizza app",
+  "main": "index.js",
+  "author": "Pranav Nair",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js",
+    "watch": "npx mix watch"
+  },
+  "license": "MIT",
+  "engines":{
+    "node": "16.13.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@stripe/stripe-js": "^1.23.0",
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "connect-mongodb-session": "^3.1.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^14.3.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.8",
+    "noty": "^3.2.0-beta-deprecated",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1",
+    "stripe": "^8.206.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.41",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.49.0",
+    "sass-loader": "12.1.0"
+  }
+}
